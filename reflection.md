@@ -63,11 +63,20 @@ Yes AI helped me design the tests that I were not good to do manually. Usually I
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+Strealmit reruns are the way streamlit executes the app. Everytime you interact with the app suchas cvlicking a button, submitting a guess, or changing diffculty Streamlit reruns the app meaning that a normal variable will just be recreated again from stratch rather than being saved. Example would be the secret key being regenerated every single click instead of it alsting over your current game. This is where streamlit sessions come in as sessions allow you to store information that can survive across those reruns meaning that it will allow the secret key to not reset everytime you guess a number. This allows the game to actually run and be played instead of being a game where you only have one chance of guessing the secret number.
+
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  One habit that I want to use or reuse in the future would be to definitly use ai to write and commit with git. I feel like claude allowed me to create really good commit messages that I can look back to and understand what changes I made to projects instead of just having one line saying I fixed a weird bug.
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+
+One thing I will definitly do differently the next time I work with AI is to use different chats to focus ai on certain specific tasks. This process allowed the ai to hallucinate less and it was able to be focused on the task becvause it was focused on the relevant information rather than from a mix of tasks.
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+This project made me realize that the more detail and more context you give aai the better it does. Instead of just pasting code and saying fix this I realize that i should describe my situation in detail, what I have done, and what I am expecting the code to do. This will allow the ai to be more accurate and way faster in helping me solve problems.
