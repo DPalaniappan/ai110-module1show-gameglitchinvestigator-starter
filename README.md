@@ -49,7 +49,18 @@ Follow these numbered steps to see the fixed game in action:
 # Paste your pytest output here, e.g.:
 # pytest tests/
 # ========================= X passed in 0.XXs =========================
-```
+collected 10 items                                                                                                                                                                                       
+
+tests/test_game_logic.py::test_winning_guess PASSED                                                                                                                                                [ 10%]
+tests/test_game_logic.py::test_guess_too_high PASSED                                                                                                                                               [ 20%]
+tests/test_game_logic.py::test_guess_too_low PASSED                                                                                                                                                [ 30%]
+tests/test_game_logic.py::test_too_high_hint_tells_player_to_go_lower PASSED                                                                                                                       [ 40%]
+tests/test_game_logic.py::test_too_low_hint_tells_player_to_go_higher PASSED                                                                                                                       [ 50%]
+tests/test_game_logic.py::test_score_never_goes_negative_on_repeated_wrong_guesses PASSED                                                                                                          [ 60%]
+tests/test_game_logic.py::test_wrong_guess_subtracts_but_clamps_at_zero PASSED                                                                                                                     [ 70%]
+tests/test_game_logic.py::test_too_high_has_no_arbitrary_bonus PASSED                                                                                                                              [ 80%]
+tests/test_game_logic.py::test_win_on_first_attempt_pays_full_points PASSED                                                                                                                        [ 90%]
+tests/test_game_logic.py::test_win_points_scale_down_with_attempts_and_floor_at_ten PASSED 
 
 ## 🚀 Stretch Features
 
