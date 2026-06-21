@@ -62,6 +62,9 @@ tests/test_game_logic.py::test_too_high_has_no_arbitrary_bonus PASSED           
 tests/test_game_logic.py::test_win_on_first_attempt_pays_full_points PASSED                                                                                                                        [ 90%]
 tests/test_game_logic.py::test_win_points_scale_down_with_attempts_and_floor_at_ten PASSED 
 
+```
+
+
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
