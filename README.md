@@ -31,13 +31,15 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
+Follow these numbered steps to see the fixed game in action:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. **Launch the app.** Run `python -m streamlit run app.py` and open the page in your browser.
+2. **Pick a difficulty.** Use the sidebar to choose Easy, Normal, or Hard. The "Range" and "Attempts allowed" captions update to match: Easy is 1–20 with 5 attempts, Normal is 1–50 with 6 attempts, and Hard is 1–100 with 8 attempts.
+3. **Make a guess.** Enter a number and click **Submit**. The secret number stays the same across submissions instead of changing every click, and only valid numeric guesses use up an attempt.
+4. **Follow the hints.** When your guess is too high the game now correctly tells you to "Go LOWER," and when it's too low it tells you to "Go HIGHER." Use the hints to narrow in on the secret.
+5. **Watch your score.** A win awards points that scale with how few attempts you used (full 100 on a first-try win, down to a floor of 10), and wrong guesses cost points but never push the score below 0.
+6. **Win or run out of attempts.** When you guess correctly you win; "Attempts left" counts down accurately as you play.
+7. **Start over.** Click **New Game** to get a fresh secret within the current difficulty's range and a reset round — fully playable again even after a previous win or loss.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
